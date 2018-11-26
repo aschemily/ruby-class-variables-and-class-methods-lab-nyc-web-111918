@@ -11,6 +11,7 @@ class Song
     @artist = artist 
     @genre = genre 
     @@count = 0 
+    @@genres = []
     
     
     @@all << self 
@@ -22,6 +23,7 @@ class Song
   end 
   
  def self.genres 
+   @@genres << @genres
    
    
  end 
