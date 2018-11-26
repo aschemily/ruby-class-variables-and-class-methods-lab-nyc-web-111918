@@ -25,7 +25,6 @@ class Song
  def self.genres 
    @@genres << @genres
    
-   
  end 
   
   def self.all 
