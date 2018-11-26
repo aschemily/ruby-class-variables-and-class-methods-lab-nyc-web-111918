@@ -18,6 +18,10 @@ class Song
   end 
   
   def self.artist
+  self.artist.map do |artist|
+  artist.song == self 
+
+  end
     
   end 
   
