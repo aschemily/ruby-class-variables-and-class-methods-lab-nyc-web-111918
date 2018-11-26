@@ -27,6 +27,7 @@ class Song
    @@genres.uniq 
    
  end 
+
   
   def self.all 
     @@all 
