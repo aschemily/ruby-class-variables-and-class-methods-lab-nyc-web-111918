@@ -4,6 +4,7 @@ class Song
   
   @@all = []
   @@count = 0 
+  @@genres = []
   
   def initialize(name)
     @name = name
@@ -18,13 +19,10 @@ class Song
    @@count += 1 
   end 
   
-  def self.artist
-  self.artist.map do |artist|
-  artist.song == self 
-
-  end
-    
-  end 
+ def self.genres 
+   
+   
+ end 
   
   def self.all 
     @@all 
